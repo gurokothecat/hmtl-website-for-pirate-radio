@@ -1,0 +1,22 @@
+.texte {
+    font-family: OCR A Std, monospace;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 300px;
+    color: rgb(255, 255, 255);
+    text-align: absolute;
+    top: 80px;           /* Distance depuis le haut */
+    left: 10px;           /* Distance depuis la gauche */
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.btn:focus + .texte {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
