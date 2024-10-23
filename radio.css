@@ -1,6 +1,6 @@
 .radioimg{
         z-index: 3;
         position: absolute;
-        left: 520px; /* Position horizontale (gauche) */
-        top: 20px;   /* Position verticale (haut) */
+        left: 520px; /* Position */
+        top: 20px;   /* Position */
 }

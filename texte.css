@@ -2,11 +2,11 @@
     font-family: OCR A Std, monospace;
     visibility: hidden;
     opacity: 0;
-    margin-top: 300px;
+    margin-top: 280px;
     color: rgb(255, 255, 255);
     text-align: absolute;
-    top: 80px;           /* Distance depuis le haut */
-    left: 10px;           /* Distance depuis la gauche */
+    top: 80px;
+    left: 10px;
     transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
@@ -19,4 +19,16 @@
   display: block;
   margin: 0 auto;
   margin-top: 50px;
+}
+
+.lien{
+  font-family: OCR A Std, monospace;
+  z-index: 4;
+  color: rgb(0, 102, 255);
+}
+
+.titre {
+  z-index: 4;
+  color: white;
+  font-family: OCR A Std, monospace;
 }

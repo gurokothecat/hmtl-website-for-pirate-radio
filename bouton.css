@@ -1,19 +1,10 @@
-/* 
-  Project: CSS Glowing Button
-  Created: Sunday, 06 March 2022
-  Author: Jamshid Elmi 
-  Tutorial: https://youtu.be/b_8fHNIHFk4
-*/
 html, body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000000;
     overflow: hidden;
-    /* transform: scale(1.5); */
   }
-  
-  /* button */
   .btn {
     margin: 100px;
     padding: 15px 40px;
@@ -22,8 +13,8 @@ html, body {
     color: #FFF;
     cursor: pointer;
     position: absolute;
-    top: 180px;           /* Distance depuis le haut */
-    left: 560px;           /* Distance depuis la gauche */
+    top: 180px;
+    left: 560px;
     z-index: 0;
     border-radius: 12px;
   }
@@ -38,7 +29,6 @@ html, body {
     top: 0;
     border-radius: 10px;
   }
-  /* glow */
   .btn::before {
     content: "";
     background: linear-gradient(
@@ -65,8 +55,6 @@ html, body {
     50% {background-position: 400% 0;}
     100% {background-position: 0 0;}
   }
-  
-  /* hover */
   .btn:hover::before {
     opacity: 1;
   }
@@ -79,3 +67,8 @@ html, body {
     color: #000;
     font-weight: bold;
   }
+
+  .btn:focus-visible + .texte {
+    visibility: visible;
+    opacity: 1;
+}
