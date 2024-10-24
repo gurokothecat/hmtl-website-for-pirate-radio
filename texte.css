@@ -2,7 +2,7 @@
     font-family: OCR A Std, monospace;
     visibility: hidden;
     opacity: 0;
-    margin-top: 280px;
+    margin-top: 200px;
     color: rgb(255, 255, 255);
     text-align: absolute;
     top: 80px;
@@ -31,4 +31,16 @@
   z-index: 4;
   color: white;
   font-family: OCR A Std, monospace;
+}
+
+.menu {
+  font-family: OCR A Std, monospace;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 200px;
+  color: rgb(255, 255, 255);
+  text-align: absolute;
+  top: 80px;
+  left: 10px;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
